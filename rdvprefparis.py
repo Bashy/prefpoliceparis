@@ -17,7 +17,7 @@ url = 'https://pprdv.interieur.gouv.fr/booking/create/948/0'
 # si vous utilisez l'envoi de message par l'API REST signal https://github.com/bbernhard/signal-cli-rest-api, veuillez changer les paramètres ci-dessous
 signal = {
     'is_used': False,
-    'api_base_route': 'http://127.0.0.1:8080', # à adapter si vous avez changer le dockerfile de l'API REST signal 
+    'api_base_route': 'http://127.0.0.1:8080', # à adapter si vous avez changé le dockerfile de l'API REST signal 
     'number':   '+33600000000',     # numéro utilisé pour le compte signal
     'receiver': '+33700000000',     # numéro qui recevra le message dans signal (inutile si vous souhaitez envoyer le message dans un groupe, voir ci-dessous)
     'group': {
